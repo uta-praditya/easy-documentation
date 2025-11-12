@@ -236,6 +236,114 @@ Pending → Confirmed → Arrived → Seated → Completed
 ### **Daily Workflow:**
 
 #### **Restaurant Operations:**
+1. **Opening**: Complete [daily checklist](MANAGER_OPERATIONS_BUSINESS_FLOW.md#daily-operational-list-opening)
+2. **Reservations**: Check [today's bookings](RESERVATION_BUSINESS_FLOW.md)
+3. **Walk-ins**: Manage [guest list](GUEST_LIST_BUSINESS_FLOW.md) and [seating](GUEST_LAYOUT_BUSINESS_FLOW.md)
+4. **Closing**: Complete [closing procedures](MANAGER_OPERATIONS_BUSINESS_FLOW.md#daily-operational-list-closing)
+
+#### **Club Operations:**
+1. **Setup**: Configure [event layout](LAYOUT_MANAGER_BUSINESS_FLOW.md)
+2. **Tickets**: Process [ticket reservations](RESERVATION_BUSINESS_FLOW.md#ticket-reservations)
+3. **Entry**: Manage [guest check-ins](GUEST_LIST_BUSINESS_FLOW.md)
+4. **VIP Service**: Handle [premium areas](GUEST_LAYOUT_BUSINESS_FLOW.md)
+
+---
+
+## 📚 Quick Reference
+
+### **Feature Guides:**
+- [📋 Complete Reservation Management](RESERVATION_BUSINESS_FLOW.md) - All booking types and workflows
+- [👥 Guest List Management](GUEST_LIST_BUSINESS_FLOW.md) - Walk-in guests and waiting lists
+- [🗺️ Visual Layout Control](GUEST_LAYOUT_BUSINESS_FLOW.md) - Drag-and-drop table management
+- [⚙️ Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md) - Admin functions and daily tasks
+- [🏗️ Layout Configuration](LAYOUT_MANAGER_BUSINESS_FLOW.md) - Floor plan editor (Admin only)
+- [📊 Guest History & Analytics](GUEST_HISTORY_BUSINESS_FLOW.md) - Historical data and reports
+
+### **🎯 Common Tasks:**
+
+#### **Reservations:**
+- **New Booking**: [Reservation → Add New → Fill Details](RESERVATION_BUSINESS_FLOW.md#create-reservation)
+- **Check-in Guest**: [Find Reservation → Swipe Right → Arrived](RESERVATION_BUSINESS_FLOW.md#confirmed--arrived)
+- **Cancel Booking**: [Find Reservation → Swipe Right → Cancel](RESERVATION_BUSINESS_FLOW.md#any-status--cancelled)
+
+#### **Walk-in Management:**
+- **Add Walk-in**: [Guest List → Add → Fill Details](GUEST_LIST_BUSINESS_FLOW.md#add-new-guest)
+- **Assign Table**: [Guest Layout → Drag Guest to Table](GUEST_LAYOUT_BUSINESS_FLOW.md#drag-guest-to-table)
+- **Complete Service**: [Guest Layout → Tap Table → Close](GUEST_LAYOUT_BUSINESS_FLOW.md#close-table)
+
+#### **Daily Operations:**
+- **Opening Setup**: [Manager Operations → Daily Checklist](MANAGER_OPERATIONS_BUSINESS_FLOW.md#daily-operational-list-opening)
+- **Lock Tables**: [Manager Operations → Lock Table Management](MANAGER_OPERATIONS_BUSINESS_FLOW.md#lock-table-management)
+- **View Reports**: [Guest History → Set Date Range → Export](GUEST_HISTORY_BUSINESS_FLOW.md#export-historical-data)
+
+#### **Layout Management:**
+- **Edit Layout**: [Layout Manager → Edit Mode → Drag Tables](LAYOUT_MANAGER_BUSINESS_FLOW.md#enter-edit-mode)
+- **Add Tables**: [Layout Manager → Drag Category → Configure](LAYOUT_MANAGER_BUSINESS_FLOW.md#add-new-table)
+- **Save Changes**: [Layout Manager → Save → Confirm](LAYOUT_MANAGER_BUSINESS_FLOW.md#save-layout)
+
+---
+
+## 🔗 Feature Integration
+
+### **Connected Workflows:**
+- **Reservation → Layout**: [Confirmed reservations](RESERVATION_BUSINESS_FLOW.md) appear as [yellow tables](GUEST_LAYOUT_BUSINESS_FLOW.md#table-status-color-coding)
+- **Guest List → Layout**: [Walk-in guests](GUEST_LIST_BUSINESS_FLOW.md) can be [dragged to tables](GUEST_LAYOUT_BUSINESS_FLOW.md#drag-and-drop-operations)
+- **Manager Operations → Layout**: [Locked tables](MANAGER_OPERATIONS_BUSINESS_FLOW.md#lock-table-management) show as [reserved](GUEST_LAYOUT_BUSINESS_FLOW.md#reserved-table-info)
+- **All Activities → History**: Every action is tracked in [Guest History](GUEST_HISTORY_BUSINESS_FLOW.md)
+
+---
+
+## 🆘 Quick Troubleshooting
+
+### **Common Issues:**
+- **Can't assign table**: Check if table is [available (green)](GUEST_LAYOUT_BUSINESS_FLOW.md#table-status-color-coding)
+- **Missing reservation**: Use [QR search](RESERVATION_BUSINESS_FLOW.md#qr-search) or check [different dates](RESERVATION_BUSINESS_FLOW.md#filter-actions)
+- **Layout not saving**: Ensure [admin permissions](LAYOUT_MANAGER_BUSINESS_FLOW.md#permission-requirements)
+- **Export not working**: Check [date range limits](GUEST_HISTORY_BUSINESS_FLOW.md#date-constraints)
+
+---
+
+## 📱 Mobile vs Desktop
+
+### **Mobile Optimized:**
+- Touch-friendly [drag-and-drop](GUEST_LAYOUT_BUSINESS_FLOW.md#mobile-vs-desktop-usage)
+- [Swipe actions](RESERVATION_BUSINESS_FLOW.md#quick-actions) for reservations
+- Pinch-to-zoom on [layouts](GUEST_LAYOUT_BUSINESS_FLOW.md#layout-controls)
+
+### **Desktop Features:**
+- Larger data displays
+- Keyboard shortcuts
+- Multi-panel views
+- Enhanced [export capabilities](GUEST_HISTORY_BUSINESS_FLOW.md#export-historical-data)
+
+---
+
+## 🎓 Training Path
+
+### **New Staff (Start Here):**
+1. Read this overview guide
+2. Practice with [Guest List Management](GUEST_LIST_BUSINESS_FLOW.md)
+3. Learn [Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md) basics
+4. Master [Reservation Management](RESERVATION_BUSINESS_FLOW.md)
+
+### **Advanced Users:**
+1. [Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md) for daily tasks
+2. [Guest History](GUEST_HISTORY_BUSINESS_FLOW.md) for analytics
+3. [Layout Manager](LAYOUT_MANAGER_BUSINESS_FLOW.md) for admins
+
+---
+
+## 📞 Support & Resources
+
+### **Need Help?**
+- Check specific feature guides for detailed steps
+- Review [permission requirements](MANAGER_OPERATIONS_BUSINESS_FLOW.md#permission-requirements) if access is denied
+- Contact system administrator for layout or configuration issues
+
+### **Best Practices:**
+- Follow the [workflows](RESERVATION_BUSINESS_FLOW.md#status-flow) for consistent operations
+- Use [cross-references](#feature-integration) to understand connected features
+- Regular [data exports](GUEST_HISTORY_BUSINESS_FLOW.md#export-historical-data) for backup and analysisns:**
 1. **Morning Setup**: Review opening checklist and today's reservations
 2. **Active Management**: Handle dining reservations and walk-ins
 3. **Real-time Updates**: Monitor table status and guest flow

@@ -1,7 +1,20 @@
 # Guest List Management - Business User Guide
 
-## 🎯 Overview
+## 🎯 Purpose
 The Guest List Management system handles walk-in customers and manages seating assignments. Staff can register new guests, track waiting lists, and monitor guest flow through the venue.
+
+## 🚪 Access
+**Navigation**: Side Menu → Guest List
+**Permissions**: All staff levels
+**Related Features**: [Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md), [Reservation Management](RESERVATION_BUSINESS_FLOW.md), [Guest History](GUEST_HISTORY_BUSINESS_FLOW.md)
+
+## 🖥️ Main Interface
+**Components**:
+- **Guest Cards**: Individual guest information display
+- **Pax Counter**: Total and current guest count in header
+- **Search Function**: Find guests by name or phone
+- **Add Button**: Register new walk-in guests
+- **Action Buttons**: Edit, Info, Delete, Communication options
 
 ---
 
@@ -204,5 +217,25 @@ Each guest card displays:
 - Use search function for quick guest lookup
 - Monitor pax counts for capacity planning
 - Review history for guest patterns
+
+## 🔗 Related Features
+- **[Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md)**: Drag guests from waiting list to tables
+- **[Reservation Management](RESERVATION_BUSINESS_FLOW.md)**: Convert walk-ins to future reservations
+- **[Guest History](GUEST_HISTORY_BUSINESS_FLOW.md)**: View past guest visits and patterns
+- **[Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)**: Access daily operational checklists
+
+## 🚨 Troubleshooting
+
+### **Common Issues:**
+- **Cannot add guest**: Check required fields (name, phone, pax)
+- **Guest not found**: Use search function or check spelling
+- **Pax count wrong**: Edit guest info to update numbers
+- **Cannot delete guest**: Provide cancellation reason
+
+### **Quick Fixes:**
+- **Refresh list**: Pull down to reload guest data
+- **Clear search**: Remove search terms to see all guests
+- **Check phone format**: Ensure numbers only, no spaces
+- **Verify pax minimum**: Current pax must be at least 1
 
 This guide covers the essential workflows for managing walk-in guests and maintaining an efficient waiting list system in the HolyWings Board application.

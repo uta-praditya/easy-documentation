@@ -1,7 +1,20 @@
 # Manager Operations - Business User Guide
 
-## 🎯 Overview
+## 🎯 Purpose
 The Manager Operations module provides administrative tools for daily operations, table management, financial processes, and outlet configuration. This section is designed for managers and supervisors to handle operational tasks and maintain outlet efficiency.
+
+## 🚪 Access
+**Navigation**: Side Menu → Manager Operations
+**Permissions**: Manager level and above (some functions admin only)
+**Related Features**: [Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md), [Layout Manager](LAYOUT_MANAGER_BUSINESS_FLOW.md), [Guest History](GUEST_HISTORY_BUSINESS_FLOW.md)
+
+## 🖥️ Main Interface
+**Components**:
+- **Menu Grid**: Icon-based function selection
+- **Daily Operations**: Opening and closing checklists
+- **Table Management**: Lock/unlock and configuration tools
+- **Financial Tools**: Refund and reschedule management
+- **Administrative Functions**: Layout and settings (admin only)
 
 ---
 
@@ -287,7 +300,33 @@ The Manager Operations screen displays a grid of operational functions, each rep
 
 ### **Financial Processing:**
 - Review refund requests promptly
-- Verify refund amounts and reasons
+- Process reschedules efficiently
+- Document all changes with proper reasons
+- Maintain accurate financial records
+
+---
+
+## 🔗 Related Features
+- **[Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md)**: Locked tables appear with special status in layout
+- **[Layout Manager](LAYOUT_MANAGER_BUSINESS_FLOW.md)**: Admin access to outlet layout configuration
+- **[Reservation Management](RESERVATION_BUSINESS_FLOW.md)**: Reschedule and refund requests originate from reservations
+- **[Guest History](GUEST_HISTORY_BUSINESS_FLOW.md)**: All operational activities are tracked in history
+
+## 🚨 Troubleshooting
+
+### **Common Issues:**
+- **Cannot access function**: Check permission level and admin rights
+- **Lock table failed**: Verify time restrictions (not between 00:00-06:00 GMT+7)
+- **Checklist not saving**: Ensure all required photos and notes are completed
+- **Refund not processing**: Verify refund amount and provide proper reason
+
+### **Quick Fixes:**
+- **Permission denied**: Contact system administrator
+- **Photo upload failing**: Check image size and format
+- **Time restriction**: Schedule table locks for appropriate hours
+- **Validation errors**: Complete all required fields before submission
+
+This comprehensive guide covers all manager-level operations for efficient outlet management in the HolyWings Board system. Verify refund amounts and reasons
 - Process reschedules efficiently
 - Maintain accurate documentation
 

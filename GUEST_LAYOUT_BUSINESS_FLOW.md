@@ -1,7 +1,20 @@
 # Guest Layout Management - Business User Guide
 
-## 🎯 Overview
+## 🎯 Purpose
 The Guest Layout Management system provides a visual, interactive floor plan for managing table assignments and guest seating. Staff can drag-and-drop guests to tables, view real-time table status, and manage seating efficiently through a visual interface.
+
+## 🚪 Access
+**Navigation**: Side Menu → Guest Layout
+**Permissions**: All staff levels (close table requires supervisor)
+**Related Features**: [Guest List](GUEST_LIST_BUSINESS_FLOW.md), [Reservation Management](RESERVATION_BUSINESS_FLOW.md), [Layout Manager](LAYOUT_MANAGER_BUSINESS_FLOW.md)
+
+## 🖥️ Main Interface
+**Components**:
+- **Interactive Floor Plan**: Visual venue representation with color-coded tables
+- **Guest Waiting Panel**: Side panel showing waiting guests
+- **Pax Counter**: Live guest count display in header
+- **Layout Selector**: Switch between different floor plans
+- **Zoom Controls**: Pan and zoom functionality for large layouts
 
 ---
 
@@ -259,5 +272,25 @@ Waiting List → Assigned to Table → Service Complete
 - Persistent side panels
 - Keyboard shortcuts
 - Larger information display
+
+## 🔗 Related Features
+- **[Guest List](GUEST_LIST_BUSINESS_FLOW.md)**: Waiting guests appear in side panel for assignment
+- **[Reservation Management](RESERVATION_BUSINESS_FLOW.md)**: Confirmed reservations show as yellow tables
+- **[Layout Manager](LAYOUT_MANAGER_BUSINESS_FLOW.md)**: Admins can modify table positions and layout
+- **[Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)**: Locked tables appear with special status
+
+## 🚨 Troubleshooting
+
+### **Common Issues:**
+- **Cannot drag guest**: Ensure table is empty (green) and guest is in waiting list
+- **Table colors wrong**: Refresh layout or check network connection
+- **Cannot assign table**: Verify guest has required information (pax, minimum charge)
+- **Layout not loading**: Check layout selector or contact admin
+
+### **Quick Fixes:**
+- **Refresh layout**: Pull down or tap refresh to reload
+- **Check table status**: Tap table to see current information
+- **Zoom for precision**: Use pinch-to-zoom for accurate table selection
+- **Clear assignments**: Use close table function to free up space
 
 This guide covers the essential workflows for managing guest seating through the visual layout interface, enabling efficient table management and guest assignment in the HolyWings Board system.

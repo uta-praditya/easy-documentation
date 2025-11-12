@@ -1,7 +1,20 @@
 # Guest History - Business User Guide
 
-## 🎯 Overview
+## 🎯 Purpose
 The Guest History module provides comprehensive tracking and analysis of past guest visits and reservations. Staff can view historical data, search past records, export reports, and manage guest status changes for analytical and operational purposes.
+
+## 🚪 Access
+**Navigation**: Side Menu → Guest History (Master) | Guest List → History (Today)
+**Permissions**: Basic staff (view), Manager+ (export, status changes)
+**Related Features**: [Guest List](GUEST_LIST_BUSINESS_FLOW.md), [Reservation Management](RESERVATION_BUSINESS_FLOW.md), [Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)
+
+## 🖥️ Main Interface
+**Components**:
+- **Date Range Selector**: Choose historical period (Master view)
+- **Search Function**: Find guests by name or phone
+- **Guest Cards Grid**: Historical guest information display
+- **Export Function**: Download data for analysis
+- **Status Management**: Change guest status (limited conditions)
 
 ---
 
@@ -241,5 +254,25 @@ Each guest card displays:
 - Large date ranges may take longer to load
 - Search functions work on currently loaded data
 - Export operations may take time for large datasets
+
+## 🔗 Related Features
+- **[Guest List](GUEST_LIST_BUSINESS_FLOW.md)**: Current guest activities feed into history
+- **[Reservation Management](RESERVATION_BUSINESS_FLOW.md)**: All reservation activities are tracked
+- **[Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md)**: Table assignments and service completion recorded
+- **[Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)**: Export functions for operational reporting
+
+## 🚨 Troubleshooting
+
+### **Common Issues:**
+- **No data showing**: Check date range selection and network connection
+- **Export not working**: Verify date range limits (max 2 years) and file permissions
+- **Cannot change status**: Verify guest meets criteria (Rejected status, GA- table)
+- **Search not finding guests**: Check spelling and try partial names
+
+### **Quick Fixes:**
+- **Slow loading**: Reduce date range for better performance
+- **Missing recent data**: Refresh or check if activities are still processing
+- **Export file too large**: Use smaller date ranges for manageable file sizes
+- **Status change blocked**: Ensure proper permissions and valid reason provided
 
 This guide covers the essential functions for accessing, analyzing, and managing historical guest data in the HolyWings Board system, enabling effective guest relationship management and operational insights.

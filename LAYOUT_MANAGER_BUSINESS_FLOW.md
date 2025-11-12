@@ -1,7 +1,20 @@
 # Layout Manager System - Business User Guide
 
-## 🎯 Overview
+## 🎯 Purpose
 The Layout Manager System allows administrators to create, edit, and manage restaurant floor plans. This visual editor enables drag-and-drop table positioning, category management, and layout configuration for different outlet areas or events.
+
+## 🚪 Access
+**Navigation**: Manager Operations → Outlet Layout (Admin only)
+**Permissions**: Admin level required
+**Related Features**: [Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md), [Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)
+
+## 🖥️ Main Interface
+**Components**:
+- **Visual Canvas**: Interactive floor plan editing area
+- **Table Categories Panel**: Draggable table types at bottom
+- **Control Buttons**: Edit, Copy, Reset, Cancel, Save actions
+- **Outlet Selector**: Choose different outlet layouts
+- **Zoom Controls**: Pan and zoom functionality
 
 ---
 
@@ -266,5 +279,25 @@ Each category has predefined:
 - Refresh if drag-and-drop becomes unresponsive
 - Save frequently to prevent data loss
 - Contact support for layout recovery issues
+
+## 🔗 Related Features
+- **[Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md)**: Created layouts appear in guest seating interface
+- **[Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)**: Access layout manager through admin functions
+- **[Reservation Management](RESERVATION_BUSINESS_FLOW.md)**: Table configurations affect reservation capacity
+- **[Guest List](GUEST_LIST_BUSINESS_FLOW.md)**: Layout changes impact guest seating options
+
+## 🚨 Troubleshooting
+
+### **Common Issues:**
+- **Cannot enter edit mode**: Verify admin permissions and layout availability
+- **Drag-and-drop not working**: Refresh browser or check for layout conflicts
+- **Save failing**: Ensure stable internet connection and no duplicate table names
+- **Tables overlapping**: Use grid alignment and proper spacing
+
+### **Quick Fixes:**
+- **Permission denied**: Contact system administrator for admin access
+- **Layout locked**: Check if layout is currently in use by operations
+- **Browser issues**: Refresh page or try different browser
+- **Validation errors**: Check for duplicate names and proper positioning
 
 This guide covers the essential workflows for creating and managing restaurant layouts through the visual Layout Manager System, enabling efficient floor plan configuration and table management.

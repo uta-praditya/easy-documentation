@@ -1,7 +1,21 @@
 # Reservation Management - Business User Guide
 
-## 🎯 Overview
+## 🎯 Purpose
 The Reservation Management system handles customer bookings from initial reservation through completion. Staff can manage different types of reservations, update statuses, and track customer interactions.
+
+## 🚪 Access
+**Navigation**: Side Menu → Reservation Management
+**Permissions**: All staff levels (features vary by role)
+**Related Features**: [Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md), [Guest List](GUEST_LIST_BUSINESS_FLOW.md), [Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)
+
+## 🖥️ Main Interface
+**Components**:
+- **Reservation List**: Scrollable list of all bookings
+- **Search Bar**: Find reservations by name, phone, or ID
+- **QR Scanner**: Quick lookup via QR codes
+- **Filter Options**: Date and status filtering
+- **Export Button**: Download reservation data
+- **Add Button**: Create new reservations
 
 ---
 
@@ -229,5 +243,25 @@ Some actions require specific user permissions:
 - **Refunds**: Financial permissions needed
 - **No Show**: PIN required for security
 - **Export**: Data access permissions required
+
+## 🔗 Related Features
+- **[Guest Layout](GUEST_LAYOUT_BUSINESS_FLOW.md)**: Confirmed reservations appear as yellow tables
+- **[Manager Operations](MANAGER_OPERATIONS_BUSINESS_FLOW.md)**: Lock tables for special reservations
+- **[Guest History](GUEST_HISTORY_BUSINESS_FLOW.md)**: All reservation activities are tracked
+- **[Guest List](GUEST_LIST_BUSINESS_FLOW.md)**: Walk-in guests can be converted to reservations
+
+## 🚨 Troubleshooting
+
+### **Common Issues:**
+- **Reservation not found**: Use QR search or check different dates
+- **Cannot confirm**: Verify customer details and table availability
+- **Status not changing**: Check permissions and required fields
+- **Export failing**: Ensure proper date range selection
+
+### **Quick Fixes:**
+- **Refresh data**: Pull down to refresh reservation list
+- **Clear search**: Remove filters to see all reservations
+- **Check permissions**: Contact supervisor for restricted actions
+- **Verify network**: Ensure stable internet connection
 
 This guide covers the essential workflows and input requirements for managing reservations effectively in the HolyWings Board system.
